@@ -1,5 +1,6 @@
-import "./sidebar.css"
-import { RssFeed, School, EmojiEvents } from "@mui/icons-material"
+import "./sidebar.css";
+import { RssFeed, School, EmojiEvents } from "@mui/icons-material";
+import CloseFriend from "../closeFriend/CloseFriend";
 
 
 export default function Sidebar() {
@@ -23,60 +24,6 @@ export default function Sidebar() {
                 <button className="sidebarButton">Show more</button>
                 <hr className="sidebarHr"/>
                 <ul className="sidebarFriendList">
-                    <li className="sidebarFriend">
-                        <img className="sidebarFriendImg" src="/assets/person/headshot.jpg" alt="Friend Profile Pic"/>
-                        <span className="sidebarFriendName">Friend Img Placeholder</span>
-                    </li>
-                    <li className="sidebarFriend">
-                        <img className="sidebarFriendImg" src="/assets/person/headshot.jpg" alt="Friend Profile Pic"/>
-                        <span className="sidebarFriendName">Friend Img Placeholder</span>
-                    </li>
-                    <li className="sidebarFriend">
-                        <img className="sidebarFriendImg" src="/assets/person/headshot.jpg" alt="Friend Profile Pic"/>
-                        <span className="sidebarFriendName">Friend Img Placeholder</span>
-                    </li>
-                    <li className="sidebarFriend">
-                        <img className="sidebarFriendImg" src="/assets/person/headshot.jpg" alt="Friend Profile Pic"/>
-                        <span className="sidebarFriendName">Friend Img Placeholder</span>
-                    </li><li className="sidebarFriend">
-                        <img className="sidebarFriendImg" src="/assets/person/headshot.jpg" alt="Friend Profile Pic"/>
-                        <span className="sidebarFriendName">Friend Img Placeholder</span>
-                    </li><li className="sidebarFriend">
-                        <img className="sidebarFriendImg" src="/assets/person/headshot.jpg" alt="Friend Profile Pic"/>
-                        <span className="sidebarFriendName">Friend Img Placeholder</span>
-                    </li>
-                    <li className="sidebarFriend">
-                        <img className="sidebarFriendImg" src="/assets/person/headshot.jpg" alt="Friend Profile Pic"/>
-                        <span className="sidebarFriendName">Friend Img Placeholder</span>
-                    </li>
-                    <li className="sidebarFriend">
-                        <img className="sidebarFriendImg" src="/assets/person/headshot.jpg" alt="Friend Profile Pic"/>
-                        <span className="sidebarFriendName">Friend Img Placeholder</span>
-                    </li>
-                    <li className="sidebarFriend">
-                        <img className="sidebarFriendImg" src="/assets/person/headshot.jpg" alt="Friend Profile Pic"/>
-                        <span className="sidebarFriendName">Friend Img Placeholder</span>
-                    </li>
-                    <li className="sidebarFriend">
-                        <img className="sidebarFriendImg" src="/assets/person/headshot.jpg" alt="Friend Profile Pic"/>
-                        <span className="sidebarFriendName">Friend Img Placeholder</span>
-                    </li>
-                    <li className="sidebarFriend">
-                        <img className="sidebarFriendImg" src="/assets/person/headshot.jpg" alt="Friend Profile Pic"/>
-                        <span className="sidebarFriendName">Friend Img Placeholder</span>
-                    </li>
-                    <li className="sidebarFriend">
-                        <img className="sidebarFriendImg" src="/assets/person/headshot.jpg" alt="Friend Profile Pic"/>
-                        <span className="sidebarFriendName">Friend Img Placeholder</span>
-                    </li>
-                    <li className="sidebarFriend">
-                        <img className="sidebarFriendImg" src="/assets/person/headshot.jpg" alt="Friend Profile Pic"/>
-                        <span className="sidebarFriendName">Friend Img Placeholder</span>
-                    </li>
-                    <li className="sidebarFriend">
-                        <img className="sidebarFriendImg" src="/assets/person/headshot.jpg" alt="Friend Profile Pic"/>
-                        <span className="sidebarFriendName">Friend Img Placeholder</span>
-                    </li>   
                 </ul>
             </div>
         </div>
