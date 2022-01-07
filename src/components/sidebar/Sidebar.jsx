@@ -1,6 +1,7 @@
 import "./sidebar.css";
 import { RssFeed, School, EmojiEvents } from "@mui/icons-material";
 import CloseFriend from "../closeFriend/CloseFriend";
+import { Users } from "../../dummyData"
 
 
 export default function Sidebar() {
@@ -24,8 +25,11 @@ export default function Sidebar() {
                 <button className="sidebarButton">Show more</button>
                 <hr className="sidebarHr"/>
                 <ul className="sidebarFriendList">
+                    {Users.map((u) => (
+                        <CloseFriend key={u.id} user={u}/>
+                    ))}
                 </ul>
             </div>
         </div>
-    )
+    );
 }
