@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import "./likes.css"
+import "./likes.css";
+// change for cap
 
 function LikesDislikes({ likes }) {
     const [liked, setLiked] = useState(false);

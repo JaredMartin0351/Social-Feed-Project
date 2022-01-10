@@ -1,5 +1,6 @@
 import CommentForm from "./CommentForm";
-import LikesDislikes from "../likes/Likes"
+import LikesDislikes from "../likes/Likes";
+// change back for cap
 
 
 
