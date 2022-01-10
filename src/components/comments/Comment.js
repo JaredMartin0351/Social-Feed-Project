@@ -1,4 +1,12 @@
 import CommentForm from "./CommentForm";
+import LikesDislikes from "../likes/Likes"
+
+
+
+
+
+
+
 
 const Comment = ({
   comment,
@@ -26,11 +34,12 @@ const Comment = ({
   const canReply = Boolean(currentUserId);
   const canEdit = currentUserId === comment.userId && !timePassed;
   const replyId = parentId ? parentId : comment.id;
+  const canLike = parentId ? parentId : comment.id;
   const createdAt = new Date(comment.createdAt).toLocaleDateString();
   return (
     <div key={comment.id} className="comment">
       <div className="comment-image-container">
-        <img src="/user-icon.png" />
+        <img className="commentImg" src="assets/post/headshot.jpg" alt="your profile pic"/>
       </div>
       <div className="comment-right-part">
         <div className="comment-content">
@@ -76,6 +85,11 @@ const Comment = ({
               onClick={() => deleteComment(comment.id)}
             >
               Delete
+            </div>
+          )}
+          {canLike && (
+            <div className="likeIcon" src="assets/Thumb-Up.jpg"  alt="Thumbs Up">
+              <LikesDislikes/>
             </div>
           )}
         </div>

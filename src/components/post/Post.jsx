@@ -5,6 +5,8 @@ import { useState } from "react";
 
 export default function Post({ post }) {
 
+    
+
     const [like, setLike] = useState(post.like)
     const [isLiked, setIsLike] = useState(false)
     

@@ -1,3 +1,7 @@
+
+// created for Comments, remove later
+
+
 export const getComments = async () => {
     return [ ];
   };
@@ -8,7 +12,7 @@ export const getComments = async () => {
       body: text,
       parentId,
       userId: "1",
-      username: "John",
+      username: "placeholder",
       createdAt: new Date().toISOString(),
     };
   };

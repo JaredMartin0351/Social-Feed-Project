@@ -1,6 +1,10 @@
 .comments {
     margin-top: 20px;
+    margin-right: 40px;
+    margin-left: 40px;
+    width:50%;  
   }
+  /* added margin right, left width */
   
   .comments-title {
     font-size: 30px;
@@ -10,6 +14,15 @@
   .comments-container {
     margin-top: 40px;
   }
+
+  .commentImg {
+    margin-top: 20px;
+    width: 50%;
+    max-height: 150px;
+    object-fit: contain;
+  }
+
+   /* added, take out */
   
   .comment-form-title {
     font-size: 22px;
